@@ -11,11 +11,11 @@ class Triangle
   def kind
     check_triangle
       raise TriangleError
-    elsif(equilateral?)
+    elsif
       :equilateral
-    elsif(scalene?)
+    elsif
       :scalene
-    elsif(isosceles?)
+    elsif
       :isosceles
     end
   end
